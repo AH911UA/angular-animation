@@ -1,0 +1,62 @@
+div
+{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+mat-card
+{
+    background-color: #004D40;
+    padding: 0;
+    min-width: 200px;
+    max-width: 250px;
+    height: auto !important;
+    width: 250px;
+    margin-bottom: 1rem;
+}
+
+mat-card-header
+{
+    padding-top: 1rem;
+}
+
+mat-card-content
+{
+    background-color: #212121;
+    min-height: 70px;
+    height: 70px;
+    max-height: 70px;
+    overflow: auto;
+    padding: 1rem;
+}
+
+mat-card-actions
+{
+    margin: 0 !important;
+    padding-bottom: 1rem;
+}
+
+img
+{
+    width: 100%;
+    margin: auto;
+}
+ 
+.mat-form-field{
+   color: #212121;
+}
+/* .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: #212121;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: black;
+} */
+ 
+.inpStyle {
+    color: #212121;
+}
+
+ 

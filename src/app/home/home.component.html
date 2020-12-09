@@ -1,0 +1,28 @@
+<p>home works!</p>
+
+<button (click)="animate()">Animate</button>
+<button (click)="boxState = 'special'">max Animate</button>
+<button (click)="visible = !visible">Toggle visibility</button>
+
+<div class="my-wrap">
+    <!-- <div 
+        class="box"
+        [@box]="boxState"
+        *ngIf="visible"
+    >
+    {{ boxState | uppercase }}
+    </div> -->
+</div>
+
+<hr>
+<div>
+    <button (click)="visible = !visible"> Bounce </button>
+    <div class="rec" [@bounce] *ngIf="visible"></div>
+</div>
+
+<div>
+    <button (click)="wobbleFunc()" > wobble </button>
+    <div class="rec" [@wobble] >
+        {{wobble | uppercase}}
+    </div>
+</div>

@@ -1,5 +1,12 @@
 import { Component } from '@angular/core';
 
+export interface Post {
+  id?: number,
+  title: string,
+  description: string
+}
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
